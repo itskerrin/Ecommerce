@@ -28,22 +28,20 @@ module.exports = ({ products }) => {
     .join('\n');
 
   return layout({
-    content: `
-      <section class="banner">
-        <div class="container">
-          <div class="columns is-centered">
-            <img src="/images/banner.jpg" />
-          </div>
-        </div>
-      </section>
-      
+    content: `     
+    <section class="banner">
+    <div class="container">
+      <div class="columns is-centered">
+      </div>
+    </div>
+  </section> 
       <section>
         <div class="container">
           <div class="columns">
             <div class="column "></div>
             <div class="column is-four-fifths">
               <div>
-                <h2 class="title text-center">Featured Items</h2>
+                <h2 class="title text-center">Products / Womens Bags</h2>
                 <div class="columns products">
                   ${renderedProducts}  
                 </div>

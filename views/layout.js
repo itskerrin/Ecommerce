@@ -18,11 +18,14 @@ module.exports = ({ content }) => {
               <div class="container navbar-container">
                 <div>
                   <ul class="social">
+                  <li>
+                  <a href="">THE BAG SHOP</a>
+                </li>
                     <li>
-                      <a href=""><i class="fa fa-phone"></i>+1 555 987 6543</a>
+                      <a href=""><i class="fa fa-phone"></i>+44 20 7427 7742</a>
                     </li>
                     <li>
-                      <a href=""><i class="fa fa-envelope"></i> shop@myshop.com</a>
+                      <a href=""><i class="fa fa-envelope"></i> info@bagshop.com</a>
                     </li>
                   </ul>
                 </div>
@@ -30,9 +33,7 @@ module.exports = ({ content }) => {
                   <ul class="social">
                     <li><a href=""><i class="fab fa-facebook"></i></a></li>
                     <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href=""><i class="fab fa-dribbble"></i></a></li>
-                    <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -40,8 +41,7 @@ module.exports = ({ content }) => {
             <nav class="navbar navbar-bottom">
               <div class="container navbar-container">
                 <div>
-                  <a href="/">
-                    <h3 class="title">EComm Shop</h3>
+                    <h3 class="title"></h3>
                   </a>
                 </div>
                 <div class="navbar-item">

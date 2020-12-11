@@ -1,5 +1,5 @@
 body {
-  --primary: #631d76;
+  --primary: #ad5c44;
   --secondary: #9e4770;
   --white: #fbfbfb;
   --dark: #2e2532;
@@ -52,6 +52,10 @@ body {
   justify-content: space-between;
   padding: 0px 5%;
   align-items: center;
+}
+
+#center {
+  display: block;
 }
 
 #cart h3 {
