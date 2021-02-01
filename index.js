@@ -5,7 +5,7 @@ const authRouter = require('./routes/admin/auth');
 const adminProductsRouter = require('../ecomm/routes/admin/products');
 const productsRouter = require('./routes/products');
 const cartsRouter = require('./routes/carts');
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -21,6 +21,6 @@ app.use(productsRouter);
 app.use(adminProductsRouter);
 app.use(cartsRouter);
 
-app.listen(port, () => {
-  console.log('Listening');
-});
+// app.listen(port, () => {
+//   console.log('Listening');
+// });
