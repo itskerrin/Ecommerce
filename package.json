@@ -1,7 +1,7 @@
 {
   "name": "ecomm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple ecommerce site",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,5 +16,8 @@
     "express-validator": "^6.6.1",
     "multer": "^1.4.2",
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "15.6.0"
   }
 }
