@@ -22,7 +22,7 @@ app.use(adminProductsRouter);
 app.use(cartsRouter);
 
 app.get('/', function (req, res) {
-  res.redirect('/');
+  res.redirect('./index.js');
 });
 
 app.listen(PORT, () => {
