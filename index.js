@@ -21,6 +21,10 @@ app.use(productsRouter);
 app.use(adminProductsRouter);
 app.use(cartsRouter);
 
+app.get('/', function (req, res) {
+  res.redirect('/');
+});
+
 app.listen(PORT, () => {
   console.log('Listening');
 });
